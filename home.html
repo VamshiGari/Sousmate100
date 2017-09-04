@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Home</title>
+</head>
+
+<link rel="stylesheet" type="text/css" href="home.css">
+<body>
+
+<a href="recipes.html"><button class = "b1" >Go to Recipe!</button></a>
+<ul id="navlist" >
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="recipes.html">Recipes</a></li>
+<li><a href="contactus.html">Contact</a></li>
+</ul>
+
+<div style="border:3.5px solid black"=  id = 'main' style="display: inline-block">
+<img src="a.png" alt="pic" id = "pic" style="float:left;width:150px;height:150px;margin-top:25px;margin-left:50px;display:inline-block;">
+
+<p><span id='RecipeName'></span></p>
+<div>
+<p class = "caption" id='RecipeSyn'> </p>
+</div>
+<script src = "rr.js" type ="text/javascript">
+
+</script>
+
+</div>
+<div class="container">
+   <div class="column-right">We provide recipes for others to use. Our recipes include a built in timer for you to easily track your progress towards making your food. If you want to request a new recipe for us to add onto our site, feel free to contact us and we will try to fulfill your request as soon as possible.</div>
+ <div class="column-center">As always, We aim to make your experience here delightful and pleasant! We currently have three recipes on our site as one of the most commonly sought out recipes from the interwebs. All our recipes include a well layed out planner for what ingredients you need, the steps needed to prepare and make the item, and a handy timer to ensure you don't overcook or lose out on anything related to time for a recipe.
+</div>
+   <div class="column-left">In the future, we aim to expand the website to provide even more tools for you to slowly and surely create the perfect dish or appetizier from our guidance and help. But of course, your support is the most crucial aspect in achieving this goal, so any and all advice and comments from you will go a long way into achieving our goals. Thank you! </div>
+</div>
+
+<div style="border:3.5px solid black" style="white-space:nowrap" id="content" style="display: inline-block">
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+    <form name="myForm" onsubmit="return validateForm();" method="post">
+       <span style= "float:left;padding-left:50px"> Signup for our mailing list </span>
+
+    <label id = 'ml' >
+  <input type='email' name='email' id='email' placeholder="Enter your email">
+  <input type="submit" value="Submit">
+  </label>
+
+</form>
+
+</div>
+<footer>
+<ul id = 'one'>
+  <a href="home.html"><li>Home</a></li>
+  <a href="about.html"><li>About</a></li>
+  <a href="about.html"><li>Recipes</a></li>
+  <a href="contactus.html"><li>Contact Us</a></li>
+</ul>
+
+<p id = 'cr'>&copy 2020.</p>
+</footer>
+
+
+</body>
+</html>

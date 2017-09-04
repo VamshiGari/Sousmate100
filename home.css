@@ -1,0 +1,172 @@
+#navlist
+{
+
+       font-family: Verdana, Arial, sans-serif;
+       font-size: 0.8em;
+       font-weight: bold;
+
+        margin-left: 305px;
+
+}
+#navlist li {
+        display: inline-block;
+      list-style-type: none;
+        border-right: 1.5px solid;
+        padding-right: 5px;
+}
+#navlist li.last {
+       border: none;
+}
+
+p {
+    font-family: "Arial";
+    margin-left:10px;
+    margin-top:10px;
+}
+div{
+  margin-top:0px;
+  margin-left:345px;
+   width: 50%;
+
+
+
+}
+
+
+#RecipeName
+{
+
+  padding-left: 65px;
+    padding-top: 10px;
+  margin-top: 0;
+  display:inline-block;
+  font-weight: bold;
+  font-size: 200%;
+}
+
+.caption
+{
+  margin-top: 0;
+  display:inline-block;
+  font-weight: bold;
+  font-size: 90%;
+
+}
+
+#main
+{
+
+        background-color: lightgray;
+        display: inline;
+          position: absolute;
+          text-align: left;
+width: 850px;
+height: 200px;
+margin-top: 40px;
+
+}
+button {
+    position: absolute;
+    margin-left:  615px;
+     margin-top:  245px;
+     width: 100px;
+     height: 20px;
+     z-index:900;
+}
+
+#content {
+    background-color: lightgray;
+   height: 40px;
+  width: 850px;
+  display: inline;
+  padding-top: 20px;
+  position: absolute;
+  text-align: center;
+margin-top: 460px;
+
+
+}
+.b1:hover
+{
+ background-color: lightgray
+}
+.container {
+    position: relative;
+    font-size:75%;
+    width: 500px;
+}
+.container div {
+
+    height: 300px;
+}
+
+.column-left {
+
+    margin-left:  82%;
+    padding-left: 250px;
+    padding-top: 260px;
+    width: 40%;
+    left: 0;
+    font-size: 110%;
+    position: absolute;
+
+}
+.column-center {
+   padding-top: 260px;
+    width: 40%;
+    margin-left: 72%;
+    font-size: 110%;
+    position: absolute;
+
+}
+.column-right {
+   padding-top: 260px;
+       margin-right: 58%;
+
+    width: 40%;
+    right: 0;
+    font-size: 110%;
+    position: absolute;
+}
+
+body { 
+
+    background-color: lightgrey;
+    background-repeat: repeat;
+    z-index:0;
+     font-family: "Arial";
+
+
+}
+input {
+  display: inline-block;
+
+margin-left:50px;
+
+}
+#ml
+{
+  text-align: center;
+      text-shadow: 2px 2px 4px #000000;
+    padding-right:150px;
+    float:center;
+}
+
+#one {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 560px;
+    padding-left: 400px;
+
+}
+li a {
+    display: block;
+    color: #000;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+#cr
+{
+padding-top: 5px;
+    padding-left: 345px;
+}

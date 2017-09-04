@@ -1,0 +1,76 @@
+#navlist
+{
+       font-size: 0.8em;
+       font-weight: bold;
+
+        margin-left: 565px;
+
+}
+#navlist li {
+        display: inline-block;
+      list-style-type: none;
+        border-right: 1.5px solid;
+        padding-right: 5px;
+}
+#navlist li.last {
+       border: none;
+}
+p{
+    margin-left:10px;
+    margin-top:10px;
+}
+div{
+  padding-top:0px;
+  padding-right:0px;
+  margin-right: 58%;
+  
+}
+#content {
+  background-color: white;
+  margin-top:50px;
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+  box-shadow: 10px 5px 5px black;
+}
+body { 
+ position: relative;
+ font-family: "Arial";
+}
+#recipes
+{
+  text-decoration:none;
+  margin-top: 50px;
+margin-left: 565px;
+
+}
+
+button {
+    background:none!important;
+     border:none; 
+     padding:0;
+    
+     color: black;
+     font-size: 100%;
+     text-decoration:none;
+     cursor:pointer;
+
+}
+#submit_id
+{
+  padding-left: 50px;
+}
+#one {
+    list-style-type: none;
+    font-size:115%;
+    margin: 0;
+    padding-top: 50px;
+    padding-left: 400px;
+
+}
+
+#cr
+{
+padding-top: 5px;
+    padding-left: 345px;
+}

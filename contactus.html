@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Contact Us</title>
+</head>
+<link rel="stylesheet" type="text/css" href="contactus.css">
+<body>
+<ul id="navlist" >
+<li><a href="home.html">Home</a></li>
+<li><a href="about.html">About</a></li>
+<li><a href="recipes.html">Recipes</a></li>
+<li><a href="contactus.html">Contact</a></li>
+</ul>
+<h1>
+Contact Us
+</h1> 
+</p>
+<p> 
+<h4>
+Please fill out the form below and we will get back in touch with you.
+</h4> 
+<div style="border:3.5px solid black" id="content" style="display: inline-block">
+<script>
+function validateForm() {
+    var x = document.forms["myForm"]["email"].value;
+    var atpos = x.indexOf("@");
+    var dotpos = x.lastIndexOf(".");
+    if (atpos<1 || dotpos<atpos+2 || dotpos+2>=x.length) {
+        alert("Not a valid e-mail address");
+        return false;
+    }
+}
+</script>
+<div>
+		<form method='post' onsubmit="return validateForm();" name="myForm">
+		<br>
+  <br />
+  <label>
+  Name <input type='text' name='name' id='name' required/>
+  </label>
+  <br>
+  <br />
+  <label>
+  Email <input type='email' name='email' id='email' required/>
+  </label>
+  <br>
+  <br />
+  Comment
+
+  <input type='text' name='comment' id='comment' required/>
+
+  <br>
+  <br />
+
+  <input id = 'submit' type='submit' value='Submit' style="height:100px; width:275px" /> 
+  <br>
+  <br />
+</form>
+</div>
+</div>
+<footer>
+<ul class = "one" >
+  <li style="list-style-type: none;" class = "two" ><a href="home.html">Home</a></li>
+  <li style="list-style-type: none;" class = "two" ><a href="about.html">About</a></li>
+  <li style="list-style-type: none;" class = "two" ><a href="recipes.html">Recipes</a></li>
+  <li style="list-style-type: none;" class = "two" ><a href="contactus.html">Contact Us</a></li>
+</ul>
+
+<p id = 'cr'>&copy 2020.</p>
+</footer>
+
+
+</body>
+</html>

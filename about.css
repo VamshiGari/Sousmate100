@@ -1,0 +1,45 @@
+#navlist
+{
+       font-size: 0.8em;
+       font-weight: bold;
+
+        margin-left: 565px;
+
+}
+#navlist li {
+        display: inline-block;
+      list-style-type: none;
+        border-right: 1.5px solid;
+        padding-right: 5px;
+}
+#navlist li.last {
+       border: none;
+}
+p{
+   
+    margin-left:10px;
+    margin-top:10px;
+}
+div{
+	padding-top:0px;
+	padding-right:0px;
+	margin-right: 58%;
+
+}
+#content {
+	margin-top:50px;
+  width: 700px ;
+  margin-left: auto ;
+  margin-right: auto ;
+}
+body { 
+ position: relative;
+    background-color: tan;
+    background-repeat: repeat;
+     font-family: "Arial";
+
+}
+footer {
+
+  padding-left:590px;
+}
